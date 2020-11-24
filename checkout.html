@@ -1,0 +1,275 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Checkout- eCommerce Bootstrap4 Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- all css here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/chosen.min.css">
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/css/bundle.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v8.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="104109461483570" theme_color="#0A7CFF" logged_in_greeting="Xin chào!!! Bạn cần chúng tôi giúp gì không ?" logged_out_greeting="Xin chào!!! Bạn cần chúng tôi giúp gì không ?">
+    </div>
+    <!--breadcrumb area start-->
+    <div class="breadcrumb_container ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home ></a>
+                            </li>
+                            <li>checkout</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumb area end-->
+
+
+    <!--Checkout page section-->
+    <div class="Checkout_page_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                </div>
+            </div>
+            <div class="checkout-form">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <form action="#">
+                            <h3>Billing Details</h3>
+                            <div class="row">
+                                <div class="col-12 mb-30">
+                                    <label for="n_f_name">Email</label>
+                                    <input id="n_f_email" type="text">
+                                </div>
+                                <div class="col-lg-6 mb-30">
+                                    <label for="b_f_name">First Name <span>*</span></label>
+                                    <input id="b_f_name" type="text">
+                                </div>
+                                <div class="col-lg-6 mb-30">
+                                    <label for="b_name">Last Name  <span>*</span></label>
+                                    <input id="b_name" type="text">
+                                </div>
+                                <div class="col-12 mb-30">
+                                    <label for="b_c_name">Phone <span>*</span></label>
+                                    <input id="b_c_phone" type="text">
+                                </div>
+                                <div class="col-12 mb-30">
+                                    <label>Address <span>*</span></label>
+                                    <input placeholder="Street address" type="text">
+                                </div>
+                                <div class="col-12 mb-30">
+                                    <input placeholder="Apartment, suite, unit etc. (optional)" type="text">
+                                </div>
+                                <div class="col-12 mb-30">
+                                    <label for="b_city">Town / City <span>*</span></label>
+                                    <input id="b_city" type="text">
+                                </div>
+                                <div class="col-12 mb-30">
+                                    <label for="b_city">District <span>*</span></label>
+                                    <input id="b_city" type="text">
+                                </div>
+                                <div class="col-lg-12 mb-30">
+                                    <label for="f_name">Ward <span>*</span></label>
+                                    <input id="f_name" type="text">
+                                </div>
+
+                                <!--    <div class="col-12 mb-30">
+
+                                      <div id="collapsetwo" class="collapse" data-parent="#accordion">
+                                        <div class="row">
+                                            <div class="col-12 mb-30">
+                                                <label for="n_f_name">Email<span>*</span></label>
+                                                <input id="n_f_name" type="text">
+                                            </div>
+                                            <div class="col-lg-6 mb-30">
+                                                <label for="n_f_name">First Name <span>*</span></label>
+                                                <input id="n_f_name" type="text">
+                                            </div>
+                                            <div class="col-lg-6 mb-30">
+                                                <label for="b__name">Last Name  <span>*</span></label>
+                                                <input id="b__name" type="text">
+                                            </div>
+                                            <div class="col-12 mb-30">
+                                                <label for="c_n_name">Company Name</label>
+                                                <input id="c_n_name" type="text">
+                                            </div>
+                                            <div class="col-12 mb-30">
+                                                <label>Address <span>*</span></label>
+                                                <input placeholder="Street address" type="text">
+                                            </div>
+                                            <div class="col-12 mb-30">
+                                                <input placeholder="Apartment, suite, unit etc. (optional)" type="text">
+                                            </div>
+                                            <div class="col-12 mb-30">
+                                                <label for="b_t_city">Town / City <span>*</span></label>
+                                                <input id="b_t_city" placeholder="Town / City" type="text">
+                                            </div>
+                                            <div class="col-lg-6 mb-30">
+                                                <label for="s_f_name">State / County  <span>*</span></label>
+                                                <input id="s_f_name" type="text">
+                                            </div>
+                                            <div class="col-lg-6 mb-30">
+                                                <label for="b_p_zip">Postcode / Zip <span>*</span></label>
+                                                <input placeholder="Postcode / Zip" id="b_p_zip" type="text">
+                                            </div>
+                                            <div class="col-lg-6 mb-30">
+                                                <label for="b_n_email">Email Address <span>*</span></label>
+                                                <input id="b_n_email" type="text">
+                                            </div>
+                                            <div class="col-lg-6 mb-30">
+                                                <label>Phone   <span>*</span></label>
+                                                <input placeholder="Phone Number" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>-->
+                                <div class="col-12">
+                                    <div class="order-notes">
+                                        <label for="order_note">Order Notes</label>
+                                        <textarea id="order_note" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="order-wrapper">
+                            <h3>Your order</h3>
+                            <div class="order-table table-responsive mb-30">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th class="product-name">Product</th>
+                                            <th class="product-total">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="product-name"> Chameleonc Wazzupbaby<strong> × 1</strong></td>
+                                            <td class="amount"> 290.000đ</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-name">Chameleonc Wazzupbaby<strong> × 1</strong></td>
+                                            <td class="amount"> 290.000đ</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Cart Subtotal</th>
+                                            <td>580.000đ</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Shiping</th>
+                                            <td>30.000đ</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Order Total</th>
+                                            <td><strong>610.000đ</strong></td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                            <div class="payment-method">
+                                <div class="panel-default">
+                                    <label class="righ_10" data-toggle="collapse" data-target="#collapsethree" aria-controls="collapseOne">Bank Transfer</label>
+                                    <div id="collapsethree" class="collapse" data-parent="#accordion">
+                                        <div class="card-body2">
+                                            <p>
+                                                Số TK: 19032655202013
+                                                <br> Chủ TK: Bui Nguyen Xuan Dai
+                                                <br>Techcombank CN Chợ Lớn </p>
+                                            <p>
+                                                <br> Số TK: 0071001050586
+                                                <br> Chủ TK: Dau Hung Dung
+                                                <br> Viecombank CN Tân Phú
+                                            </p>
+                                            <p>
+                                                <br> Số TK: 195168359
+                                                <br> Chủ TK: Tran Gia Thai Bao
+                                                <br> ACB CN Tân Thuận
+                                            </p>
+                                            <p>
+                                                <br> Nội dung chuyển khoản:<strong> Beebrick + Mã đơn hàng hoặc Số điện thoại đặt hàng.</strong>
+                                                <br> Để quá trình xác nhận nhanh hơn bạn có thể chụp hóa đơn xác nhận chuyển thành công qua Email hoặc Fanpage
+                                                <Strong>Beebrick</Strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-default">
+                                    <label class="righ_10" data-toggle="collapse" data-target="#collapsefour" aria-controls="collapseOne">Payment On Delivery</label>
+                                </div>
+                                <div class="order-button">
+                                    <button type="submit">Place order</button>
+                                    <br>
+                                    <button type="submit">Continue Shopping</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Checkout page section end-->
+    <!-- all js here -->
+    <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/ajax-mail.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

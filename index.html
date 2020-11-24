@@ -1,0 +1,1186 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>BEEBRICK - MÔ HÌNH ĐỒ CHƠI</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon1.png">
+    <!-- all css here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/chosen.min.css">
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/css/bundle.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/test_popup.css">
+    <style>
+        #image {
+            width: 200px;
+        }
+    </style>
+</head>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v8.0" nonce="JdzmEWd3"></script>
+
+<body>
+    <!-- Add your site or application content here -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v8.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="104109461483570" theme_color="#0A7CFF" logged_in_greeting="Xin chào!!! Bạn cần chúng tôi giúp gì không ?" logged_out_greeting="Xin chào!!! Bạn cần chúng tôi giúp gì không ?">
+    </div>
+    <!---TEST POPUP-->
+    <div class="login" id="login-box"><a class="login_title" href="#">Sign In</a>
+        <a class="close" href="#"><img class="img-close" title="Close Window" alt="Close" src="assets/img/logo/close.png" /></a>
+
+        <form class="login-content" action="#" method="post"><label class="username">
+                    <span>Username</span>
+                    <input id="username" type="text" autocomplete="on" name="username" placeholder="Email/ Mobile Number"
+                        value="" />
+                </label>
+            <label class="password">
+                    <span>Password</span>
+                    <input id="password" type="password" name="password" placeholder="Password" value="" />
+                </label>
+            <button class="button submit-button" type="button">Log In</button>
+            <div><a class="quen" href="#">Forgot Password?</a> </div>
+            <div><img class="img-line" src="assets/img/logo/line.png" /></div>
+            <div>
+                <a class="gg-fb">Or Using</a>
+                <div class="links">
+                    <div class="facebook">
+                        <i class="fab fa-facebook-square"><span>Facebook</span></i>
+                    </div>
+                    <div class="google">
+                        <i class="fab fa-google-plus-square"><span>Google</span></i>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!---->
+    <!---TEST POPUP-->
+    <div class="login" id="logup-box"><a class="login_title" href="#">Sign Up</a>
+        <a class="close" href="#"><img class="img-close" title="Close Window" alt="Close" src="assets/img/logo/close.png" /></a>
+
+        <form class="login-content" action="#" method="post">
+            <label class="name">
+                <span>Name</span>
+                <input id="name" type="text" autocomplete="on" name="name" placeholder="Your name"
+                    value="" />
+            </label>
+            <label class="username">
+                <span>Username</span>
+                <input id="username" type="text" autocomplete="on" name="username" placeholder="Email/ Mobile Number"
+                    value="" />
+            </label>
+            <label class="password">
+                <span>Password</span>
+                <input id="password" type="password" name="password" placeholder="Password" value="" />
+            </label>
+            <label class="password">
+                <span>Confirm Password</span>
+                <input id="password" type="password" name="password" placeholder="Confirm Password" value="" />
+            </label>
+            <label class="securitycode">
+                <span>Security Code</span>
+                <input id="securitycode" type="text" autocomplete="on" name="securitycode" placeholder="Security Code"
+                    value="" />
+            </label>
+            <button class="button submit-button" type="button">Sign Up</button>
+        </form>
+    </div>
+    <!---->
+    <!--organicfood wrapper start-->
+    <div class="organic_food_wrapper">
+        <!--Header start-->
+        <header class="header sticky-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="header_wrapper_inner">
+
+                            <div class="logo col-xs-12">
+                                <a href="index.html">
+                                    <img name="image" src="images/logo-1.png" alt="" id="image">
+                                </a>
+                            </div>
+                            <!--js switch-->
+
+                            <div class="main_menu_inner">
+
+                                <div class="menu">
+                                    <nav>
+                                        <ul>
+                                            <li class="active"><a href="index.html">Home
+                                            </li>
+                                            <li><a href="about.html">about us </a> </li>
+                                            <li><a href="shop.html">shop</a> </li>
+                                            <li><a href="blog.html">Blog </a>
+                                            </li>
+                                            <li class="mega_parent"><a href="#">Pages <i
+                                                        class="fa fa-angle-down"></i></a>
+                                                <ul class="mega_menu">
+                                                    <li class="mega_item">
+                                                        <a class="mega_title" href="#">BRANDS</a>
+                                                        <ul>
+                                                            <li><a href="#">1983 Toys</a></li>
+                                                            <li><a href="#">CJOY</a></li>
+                                                            <li><a href="#">Lam Toys</a></li>
+                                                            <li><a href="#">Popmart</a></li>
+                                                            <li><a href="#">Super Plastic</a></li>
+                                                            <li><a href="#">Medicom Toy</a></li>
+                                                            <li><a href="#">Tokidoki</a></li>
+                                                            <li><a href="#">Kimpark Lab</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mega_item">
+                                                        <a class="mega_title" href="#">PRODUCTS</a>
+                                                        <ul>
+                                                            <li><a href="#">ALL</a></li>
+                                                            <li><a href="#">NEW ARRIVAL</a></li>
+                                                            <li><a href="#">BLINDBOX</a></li>
+                                                            <li><a href="#">DESIGNER TOY</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">offers and sales</a></li>
+                                            <li><a href="#">support</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                                <div class="mobile-menu d-lg-none">
+                                    <nav>
+                                        <ul>
+                                            <li class="active"><a href="index.html">Home</a>
+                                            </li>
+                                            <li><a href="about.html">about us </a></li>
+                                            <li><a href="shop.html">shop</a> </li>
+                                            <li><a href="blog.html">Blog </a>
+                                            </li>
+                                            <li><a href="#">Pages</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">BRANDS</a>
+                                                        <ul>
+                                                            <li><a href="#">1983 Toys</a></li>
+                                                            <li><a href="#">">CJOY</a></li>
+                                                            <li><a href="#">Lam Toys</a></li>
+                                                            <li><a href="#">Popmart</a></li>
+                                                            <li><a href="#">Super Plastic</a></li>
+                                                            <li><a href="#">Medicom Toy</a></li>
+                                                            <li><a href="#">Tokidoki</a></li>
+                                                            <li><a href="#">Kimpark Lab</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">PRODUCTS</a>
+                                                        <ul>
+                                                            <li><a href="#">ALL</a></li>
+                                                            <li><a href="#">NEW ARRIVAL</a></li>
+                                                            <li><a href="#">BLINDBOX</a></li>
+                                                            <li><a href="#">DESIGNER TOY</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">vegetable</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="header_right_info d-flex">
+                                <div class="search_box">
+                                    <div class="search_inner">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search our catalog">
+                                            <button type="submit"><i class="ion-ios-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="mini__cart">
+                                    <div class="mini_cart_inner">
+                                        <div class="cart_icon">
+                                            <a href="#">
+                                                <span class="cart_icon_inner">
+                                                    <i class="ion-android-cart"></i>
+                                                    <span class="cart_count">2</span>
+                                                </span>
+                                                <span class="item_total">610.000₫</span>
+                                            </a>
+                                        </div>
+                                        <!--Mini Cart Box-->
+                                        <div class="mini_cart_box cart_box_one">
+                                            <div class="mini_cart_item">
+                                                <div class="mini_cart_img">
+                                                    <a href="#">
+                                                        <img src="assets/img/product/1_.jpg" alt="">
+                                                        <span class="cart_count">1</span>
+                                                    </a>
+                                                </div>
+                                                <div class="cart_info">
+                                                    <h5><a href="product-details.html">Chameleonc Wazzupbaby</a></h5>
+                                                    <span class="cart_price">290.000₫</span>
+                                                </div>
+                                                <div class="cart_remove">
+                                                    <a href="#"><i class="zmdi zmdi-delete"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="mini_cart_item">
+                                                <div class="mini_cart_img">
+                                                    <a href="#">
+                                                        <img src="assets/img/product/2_.jpg" alt="">
+                                                        <span class="cart_count">1</span>
+                                                    </a>
+                                                </div>
+                                                <div class="cart_info">
+                                                    <h5><a href="product-details.html">Chameleonc Wazzupbaby</a></h5>
+                                                    <span class="cart_price">290.000₫</span>
+                                                </div>
+                                                <div class="cart_remove">
+                                                    <a href="#"><i class="zmdi zmdi-delete"></i></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="price_content">
+                                                <div class="cart_subtotals">
+                                                    <div class="price_inline">
+                                                        <span class="label">Subtotal </span>
+                                                        <span class="value">580.000₫</span>
+                                                    </div>
+                                                    <div class="price_inline">
+                                                        <span class="label">Shipping </span>
+                                                        <span class="value">30.000₫</span>
+                                                    </div>
+                                                    <div class="price_inline">
+                                                        <span class="label">Taxes </span>
+                                                        <span class="value">0₫</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-total-price">
+                                                    <span class="label">Total </span>
+                                                    <span class="value">610.000₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="min_cart_checkout">
+                                                <a href="checkout.html">Checkout</a>
+                                            </div>
+                                        </div>
+                                        <!--Mini Cart Box End -->
+                                    </div>
+                                </div>
+                                <div class="header_account">
+                                    <div class="account_inner">
+                                        <a href="#"><i class="ion-gear-b"></i></a>
+                                    </div>
+                                    <div class="content-setting-dropdown">
+                                        <div class="language-selector-wrapper">
+                                            <div class="language-selector">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#"><img src="assets/img/logo/co.png" alt="Language" width="16px" height="11px"><span class="expand-more">Việt Nam</span> </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><img src="assets/img/1.jpg" alt="English"><span class="expand-more">English</span></a>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="currency-selector-wrapper">
+                                                <ul>
+                                                    <li><a href="#">VND đ</a></li>
+                                                    <li><a href="#">USD $</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="user_info_top">
+                                                <ul>
+                                                    <li><a href="my-account.html">my account</a></li>
+                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                    <li><a class="login-window" href="#login-box">Sign in</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--Header end-->
+        <!--Slider start-->
+        <div class="slider_area">
+            <div class="slider_list  owl-carousel">
+                <div class="single_slide" style="background-image: url(assets/img/banner/banner-1.jpg);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="slider__content">
+                                    <p>Exclusive Offer -10% Off This Week</p>
+                                    <h2>Live <strong>healthy</strong> with a glass</h2>
+                                    <h3>of <strong>fruit juice</strong> every day</h3>
+                                    <h6>Starting at<span>$42.99</span></h6>
+                                    <div class="slider_btn">
+                                        <a href="shop.html">Shopping now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_slide" style="background-image: url(assets/img/banner/banner-2.jpg);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="slider__content">
+                                    <p>Exclusive Offer -10% Off This Week</p>
+                                    <h2>We <strong>provide</strong> the best</h2>
+                                    <h3> product <strong> for you </strong></h3>
+                                    <h6>Starting at <span>$42.99</span></h6>
+                                    <div class="slider_btn">
+                                        <a href="shop.html">Shopping now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_slide" style="background-image: url(assets/img/banner/banner-3.jpg);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="slider__content">
+                                    <p>Exclusive Offer -10% Off This Week</p>
+                                    <h2>We <strong>provide</strong> the best</h2>
+                                    <h3> product <strong> for you </strong></h3>
+                                    <h6>Starting at <span>$42.99</span></h6>
+                                    <div class="slider_btn">
+                                        <a href="shop.html">Shopping now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_slide" style="background-image: url(assets/img/banner/banner-4.jpg);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="slider__content">
+                                    <p>Exclusive Offer -10% Off This Week</p>
+                                    <h2>We <strong>provide</strong> the best</h2>
+                                    <h3> product <strong> for you </strong></h3>
+                                    <h6>Starting at <span>$42.99</span></h6>
+                                    <div class="slider_btn">
+                                        <a href="shop.html">Shopping now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Slider end-->
+
+        <!--Banner area start-->
+        <div class="banner_area home1_banner mt-30">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single_banner">
+                            <a href="#">
+                                <img src="assets/img/banner/zakaria-ahada-VGR_ReUCqNw-unsplash.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single_banner">
+                            <a href="#">
+                                <img src="assets/img/banner/xavi-cabrera-kn-UmDZQDjM-unsplash.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single_banner banner_three">
+                            <a href="#">
+                                <img src="assets/img/banner/nastya-dulhiier-ZvbLznLCRc0-unsplash.jpg" height="265px" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Banner area end-->
+
+        <!--new arrival product area-->
+        <div class="features_product pt-90">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section_title text-center">
+                            <h3> New Arrival </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="features_product_active owl-carousel">
+
+                        <div class="col-lg-2">
+                            <div class="single__product">
+                                <div class="single_product__inner">
+                                    <span class="new_badge">new</span>
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="assets/img/product/duckoo-tropical-island-blind-box-series-by-chokocider-x-pop-mart-the-toy-chronicle-2020.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product__content text-center">
+                                        <div class="produc_desc_info">
+                                            <div class="product_title">
+                                                <h4><a href="#">Duckoo Troppical Island</a></h4>
+                                            </div>
+                                            <div class="product_price">
+                                                <p>230.000₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="product__hover">
+                                            <ul>
+                                                <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                                <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i
+                                                            class="ion-android-open"></i></a></li>
+                                                <li><a href="product-details.html"><i class="ion-clipboard"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <div class="single__product">
+                                <div class="single_product__inner">
+                                    <span class="new_badge">new</span>
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="assets/img/product/a-675a68cf-7a28-4049-9490-90a11e5998f3.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product__content text-center">
+                                        <div class="produc_desc_info">
+                                            <div class="product_title">
+                                                <h4><a href="product-details.html">Sweet Bean Supermarket Mini Series By
+                                                        PDC</a></h4>
+                                            </div>
+                                            <div class="product_price">
+                                                <p>230.000₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="product__hover">
+                                            <ul>
+                                                <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                                <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i
+                                                            class="ion-android-open"></i></a></li>
+                                                <li><a href="product-details.html"><i class="ion-clipboard"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-2">
+                            <div class="single__product">
+                                <div class="single_product__inner">
+                                    <span class="new_badge">new</span>
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="assets/img/product/pop-mart-x-chewyhams-pirate-blind-box-series-the-toy-chronicle-2020-ccq.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product__content text-center">
+                                        <div class="produc_desc_info">
+                                            <div class="product_title">
+                                                <h4><a href="product-details.html">Chewyhams Pirates Mini Series By
+                                                        Funi</a></h4>
+                                            </div>
+                                            <div class="product_price">
+                                                <p>230.000₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="product__hover">
+                                            <ul>
+                                                <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                                <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i
+                                                            class="ion-android-open"></i></a></li>
+                                                <li><a href="product-details.html"><i class="ion-clipboard"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <div class="single__product">
+                                <div class="single_product__inner">
+                                    <span class="new_badge">new</span>
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="assets/img/product/yummy-bubble-man-blind-box-series-by-modoli-x-pop-mart-the-toy-chronicle-2020.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product__content text-center">
+                                        <div class="produc_desc_info">
+                                            <div class="product_title">
+                                                <h4><a href="product-details.html">Yummy Bubble Man Mini Series By
+                                                        Modoli</a></h4>
+                                            </div>
+                                            <div class="product_price">
+                                                <p>270.000₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="product__hover">
+                                            <ul>
+                                                <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                                <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i
+                                                            class="ion-android-open"></i></a></li>
+                                                <li><a href="product-details.html"><i class="ion-clipboard"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <div class="single__product">
+                                <div class="single_product__inner">
+                                    <span class="new_badge">new</span>
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="assets/img/product/cdn11-bigcommerce-com-jpeg.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product__content text-center">
+                                        <div class="produc_desc_info">
+                                            <div class="product_title">
+                                                <h4><a href="product-details.html">Shock Series 1 By Instinctoy</a></h4>
+                                            </div>
+                                            <div class="product_price">
+                                                <p>330.000₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="product__hover">
+                                            <ul>
+                                                <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                                <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i
+                                                            class="ion-android-open"></i></a></li>
+                                                <li><a href="product-details.html"><i class="ion-clipboard"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-2">
+                            <div class="single__product">
+                                <div class="single_product__inner">
+                                    <span class="new_badge">new</span>
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="assets/img/product/zu-pi-sighing-river-mini-series-2-by-steven-choi-x-kaiyodo-the-toy-chronicle-2020-blind-box-1152x817.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product__content text-center">
+                                        <div class="produc_desc_info">
+                                            <div class="product_title">
+                                                <h4><a href="product-details.html">Zu & Pi Sighing River Series 2 By
+                                                        Steven Choi</a></h4>
+                                            </div>
+                                            <div class="product_price">
+                                                <p>350.000₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="product__hover">
+                                            <ul>
+                                                <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                                <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i
+                                                            class="ion-android-open"></i></a></li>
+                                                <li><a href="product-details.html"><i class="ion-clipboard"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-2">
+                            <div class="single__product">
+                                <div class="single_product__inner">
+                                    <span class="new_badge">new</span>
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="assets/img/product/119243962-320628115901084-999528263384387653-n.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product__content text-center">
+                                        <div class="produc_desc_info">
+                                            <div class="product_title">
+                                                <h4><a href="product-details.html">Crayon Shinchan ( Animals
+                                                        Cosplay)</a></h4>
+                                            </div>
+                                            <div class="product_price">
+                                                <p>280.000₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="product__hover">
+                                            <ul>
+                                                <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                                <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i
+                                                            class="ion-android-open"></i></a></li>
+                                                <li><a href="product-details.html"><i class="ion-clipboard"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--New arrival product end-->
+
+        <!--Super Plastic product area-->
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title text-center">
+                    <h3> Super Plastic </h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="features_product_active owl-carousel">
+
+                <div class="col-lg-2">
+                    <div class="single__product">
+                        <div class="single_product__inner">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/img/product/8in-tadodremon-blue-websiteproductimages-front-1600x-2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__content text-center">
+                                <div class="produc_desc_info">
+                                    <div class="product_title">
+                                        <h4><a href="#">Dremon Superjanky By Tado</a></h4>
+                                    </div>
+                                    <div class="product_price">
+                                        <p>2.300.000₫</p>
+                                    </div>
+                                </div>
+                                <div class="product__hover">
+                                    <ul>
+                                        <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                        <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i class="ion-android-open"></i></a></li>
+                                        <li><a href="product-details.html"><i class="ion-clipboard"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="single__product">
+                        <div class="single_product__inner">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/img/product/3-226273ca-760e-4ac7-8ea6-90e5230900cc.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__content text-center">
+                                <div class="produc_desc_info">
+                                    <div class="product_title">
+                                        <h4><a href="product-details.html">Treeson Superjanky By Bubi Au Yeung</a></h4>
+                                    </div>
+                                    <div class="product_price">
+                                        <p>2.300.000₫</p>
+                                    </div>
+                                </div>
+                                <div class="product__hover">
+                                    <ul>
+                                        <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                        <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i class="ion-android-open"></i></a></li>
+                                        <li><a href="product-details.html"><i class="ion-clipboard"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2">
+                    <div class="single__product">
+                        <div class="single_product__inner">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/img/product/97127901-659073091544082-8479911497110126592-n.png" alt="">
+                                </a>
+                            </div>
+                            <div class="product__content text-center">
+                                <div class="produc_desc_info">
+                                    <div class="product_title">
+                                        <h4><a href="product-details.html">King Janky The 6.5 “Platinum Panama”
+                                                Edition</a></h4>
+                                    </div>
+                                    <div class="product_price">
+                                        <p>550.000₫</p>
+                                    </div>
+                                </div>
+                                <div class="product__hover">
+                                    <ul>
+                                        <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                        <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i class="ion-android-open"></i></a></li>
+                                        <li><a href="product-details.html"><i class="ion-clipboard"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="single__product">
+                        <div class="single_product__inner">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/img/product/92672549-2595127830766097-2165165396997439488-o.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__content text-center">
+                                <div class="produc_desc_info">
+                                    <div class="product_title">
+                                        <h4><a href="product-details.html">Jungle Green Superkranky By Sket One</a></h4>
+                                    </div>
+                                    <div class="product_price">
+                                        <p>1.900.000₫</p>
+                                    </div>
+                                </div>
+                                <div class="product__hover">
+                                    <ul>
+                                        <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                        <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i class="ion-android-open"></i></a></li>
+                                        <li><a href="product-details.html"><i class="ion-clipboard"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="single__product">
+                        <div class="single_product__inner">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/img/product/89951216-2573909809554566-2905397169307516928-o.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__content text-center">
+                                <div class="produc_desc_info">
+                                    <div class="product_title">
+                                        <h4><a href="product-details.html">Nopatilo Superjanky Green - Nopatilo
+                                                Superjanky '' Prickle Me Pink ''</a></h4>
+                                    </div>
+                                    <div class="product_price">
+                                        <p>1.850.000₫</p>
+                                    </div>
+                                </div>
+                                <div class="product__hover">
+                                    <ul>
+                                        <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                        <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i class="ion-android-open"></i></a></li>
+                                        <li><a href="product-details.html"><i class="ion-clipboard"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2">
+                    <div class="single__product">
+                        <div class="single_product__inner">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/img/product/gloomyden.png" alt="">
+                                </a>
+                            </div>
+                            <div class="product__content text-center">
+                                <div class="produc_desc_info">
+                                    <div class="product_title">
+                                        <h4><a href="product-details.html">Gloomy In Black Superjanky By Mori Chack</a>
+                                        </h4>
+                                    </div>
+                                    <div class="product_price">
+                                        <p>1.800.000₫</p>
+                                    </div>
+                                </div>
+                                <div class="product__hover">
+                                    <ul>
+                                        <li><a href="#"><i class="ion-android-cart"></i></a></li>
+                                        <li><a class="cart-fore" href="#" data-toggle="modal" data-target="#my_modal" title="Quick View"><i class="ion-android-open"></i></a></li>
+                                        <li><a href="product-details.html"><i class="ion-clipboard"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--New arrival product end-->
+
+    <!--Shipping area start-->
+    <div class="shipping_area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="shipping_list d-flex justify-content-between flex-xs-column">
+                        <div class="single_shipping_box d-flex">
+                            <div class="shipping_icon">
+                                <img src="assets/img/ship/1.png" alt="shipping icon">
+                            </div>
+                            <div class="shipping_content">
+                                <h6>Free Shipping On Order Over 1.000.000Đ</h6>
+                                <p>Free shipping on all order</p>
+                            </div>
+                        </div>
+                        <div class="single_shipping_box one d-flex">
+                            <div class="shipping_icon">
+                                <img src="assets/img/ship/2.png" alt="shipping icon">
+                            </div>
+                            <div class="shipping_content">
+                                <h6>Money Return</h6>
+                                <p>Back guarantee under 7 days</p>
+                            </div>
+                        </div>
+                        <div class="single_shipping_box two d-flex">
+                            <div class="shipping_icon">
+                                <img src="assets/img/ship/3.png" alt="shipping icon">
+                            </div>
+                            <div class="shipping_content">
+                                <h6>Member Discount</h6>
+                                <p>Support online 24 hours a day</p>
+                            </div>
+                        </div>
+                        <div class="single_shipping_box three d-flex">
+                            <div class="shipping_icon">
+                                <img src="assets/img/ship/4.png" alt="shipping icon">
+                            </div>
+                            <div class="shipping_content">
+                                <h6>Online Support 24/7</h6>
+                                <p>Support online 24 hours a day</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer start -->
+    <footer class="footer pt-90">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-xs-12">
+                    <!--Single Footer-->
+                    <div class="single_footer widget">
+                        <div class="single_footer_widget_inner">
+                            <div class="footer_logo">
+                                <a href="#"><img src="images/logo_footer.png" alt="" width="270px"></a>
+                            </div>
+                            <div class="footer_content">
+                                <p>Address: 436 Ba Tháng Hai, phường 12, quận 10, thành phố Hồ Chí Minh </p>
+                                <p>Phone: +(84) 123456789</p>
+                                <p>Email: Contact@beebrick@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.236439428106!2d106.62336721462259!3d10.793194692310133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c008296bd41%3A0xdc1619ebb2292377!2zMTY0IE5ndXnhu4VuIE5n4buNYyBOaOG7sXQsIFTDom4gUXXDvSwgVMOibiBQaMO6LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1602775382458!5m2!1svi!2s" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <!--Single Footer-->
+                </div>
+                <div class="col-lg-6 col-md-12 col-xs-12">
+                    <div class="footer_menu_list d-flex justify-content-between">
+                        <!--Single Footer-->
+                        <div class="single_footer widget">
+                            <div class="single_footer_widget_inner">
+                                <div class="footer_title">
+                                    <h2>Products</h2>
+                                </div>
+                                <div class="footer_menu">
+                                    <ul>
+                                        <li><a href="#"> Prices drop</a></li>
+                                        <li><a href="#"> New products</a></li>
+                                        <li><a href="#"> Best sales</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Single footer end-->
+                        <!--Single footer start-->
+                        <div class="single_footer widget">
+                            <div class="single_footer_widget_inner">
+                                <div class="footer_title">
+                                    <h2>Login</h2>
+                                </div>
+                                <div class="footer_menu">
+                                    <ul>
+                                        <li><a href="#"> Login</a></li>
+                                        <li><a href="#"> Contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Single Footer end-->
+                        <!--Single footer start-->
+                        <div class="single_footer widget">
+                            <div class="single_footer_widget_inner">
+                                <div class="footer_title">
+                                    <h2> Your account </h2>
+                                </div>
+                                <div class="footer_menu">
+                                    <ul>
+                                        <li><a href="#">Personal info</a></li>
+                                        <li><a href="#"> Orders</a></li>
+                                        <li><a href="#"> Login</a></li>
+                                        <li><a href="#"> Addresses</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Single Footer end-->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-xs-12">
+                    <div class="footer_title">
+                        <h2> Join Our Newsletter Now </h2>
+                    </div>
+                    <div class="footer_news_letter">
+                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <div class="newsletter_form">
+                            <form action="#">
+                                <li><a class="login-window button" href="#logup-box">Sign Up</a></li>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-xs-12">
+                        <div class="copyright_text">
+                            <p>Copyright 2020 <a href="#">Beebrick</a>. All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-12">
+                        <div class="footer_mastercard text-right">
+                            <a href="#"><img src="assets/img/brand/payment.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- footer end -->
+    <!-- modal area start -->
+    <div class="modal fade" id="my_modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body shop">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-12">
+                                <div class="product-flags madal">
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="imgeone" role="tabpanel">
+                                            <div class="product_tab_img">
+                                                <a href="#"><img src="assets/img/cart/duckoo-tropical-island-blind-box-series-by-chokocider-x-pop-mart-the-toy-chronicle-2020-burnt.jpg" alt="" class="img-show-nav"></a>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="imgetwo" role="tabpanel">
+                                            <div class="product_tab_img">
+                                                <a href="#"><img src="assets/img/cart/duckoo-tropical-island-blind-box-series-by-chokocider-x-pop-mart-the-toy-chronicle-2020-rq.jpg" alt="" class="img-show-nav"></a>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="imgethree" role="tabpanel">
+                                            <div class="product_tab_img">
+                                                <a href="#"><img src="assets/img/cart/duckoo-tropical-island-blind-box-series-by-chokocider-x-pop-mart-the-toy-chronicle-2020-rqbruo2nr.jpg" alt="" class="img-show-nav"></a>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="imge4" role="tabpanel">
+                                            <div class="product_tab_img">
+                                                <a href="#"><img src="assets/img/cart/duckoo-tropical-island-blind-box-series-by-chokocider-x-pop-mart-the-toy-chronicle-2020-rqq.jpg" alt="" class="img-show-nav"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products_tab_button  modals">
+                                        <ul class="nav product_navactive" role="tablist">
+                                            <li>
+                                                <a class="nav-link active" data-toggle="tab" href="#imgeone" role="tab" aria-controls="imgeone" aria-selected="false"><img src="assets/img/cart/duckoo-tropical-island-blind-box-series-by-chokocider-x-pop-mart-the-toy-chronicle-2020-burnt.jpg" alt="" class="img-cart"></a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" data-toggle="tab" href="#imgetwo" role="tab" aria-controls="imgetwo" aria-selected="false"><img src="assets/img/cart/duckoo-tropical-island-blind-box-series-by-chokocider-x-pop-mart-the-toy-chronicle-2020-rq.jpg" alt="" class="img-cart"></a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link button_three" data-toggle="tab" href="#imgethree" role="tab" aria-controls="imgethree" aria-selected="false"><img src="assets/img/cart/duckoo-tropical-island-blind-box-series-by-chokocider-x-pop-mart-the-toy-chronicle-2020-rqbruo2nr.jpg" alt="" class="img-cart"></a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link button_three" data-toggle="tab" href="#imge4" role="tab" aria-controls="imge4" aria-selected="false"><img src="assets/img/cart/duckoo-tropical-island-blind-box-series-by-chokocider-x-pop-mart-the-toy-chronicle-2020-rqq.jpg" alt="" class="img-cart"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-12">
+                                <div class="modal_right">
+                                    <div class="shop_reviews">
+                                        <div class="demo_product">
+                                            <h2>Duckoo Tropical Island</h2>
+                                        </div>
+                                        <div class="current_price">
+                                            <span class="regular_price">230.000₫</span>
+                                        </div>
+                                        <div class="product_information product_modal">
+                                            <div id="product_modal_content">
+                                                <p>SKU: PVN1569</p>
+                                            </div>
+                                            <div class="product_variants">
+                                                <div class="product_variants_item modal_item">
+                                                    <span class="control_label">Size</span>
+                                                    <select id="group_1">
+                                                        <option value="1"selected="selected">Blindbox</option>
+                                                        <option value="2">Set 12 Blindbox</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="quickview_plus_minus">
+                                                    <span class="control_label">Quantity</span>
+                                                    <div class="quickview_plus_minus_inner">
+                                                        <div class="cart-plus-minus">
+                                                            <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="add_button add_modal">
+                                                    <button type="submit"> Add to cart</button>
+                                                </div>
+
+                                                <div class="cart_description">
+                                                    <p>𝗗𝗨𝗖𝗞𝗢𝗢 𝗧𝗥𝗢𝗣𝗜𝗖𝗔𝗟 𝗜𝗦𝗟𝗔𝗡𝗗
+                                                        <br> by 𝗣𝗢𝗣𝗠𝗔𝗥𝗧 x 𝗗𝗨𝗖𝗞𝗢𝗢
+                                                        <br> Mùa hè có lẽ vẫn chưa bị bỏ lại phía sau khi Duckoo và Popmart rục rịch ra mắt một series không thể nào chill hơn nữa. Nào mình cùng đến với đảo nhiệt đới của những chú vịt đáng yêu và gợi đòn
+                                                        Duckoo với vô số hoạt động thú vị : nằm tắm nắng bên bờ biển, bơi cùng cái phao con vịt, lặn ngắm san hô, hay đàn ca bên cô nàng đang nhảy điệu Hula ... Chú vịt nào sẽ đồng hành với bạn ở mua hè
+                                                        bất tận này?
+                                                        <br>
+                                                        <br> 𝗖𝗵𝗶 𝗧𝗶𝗲̂́𝘁 𝗦𝗮̉𝗻 𝗣𝗵𝗮̂̉𝗺
+                                                        <br> 𝗧𝗲̂𝗻 𝗦𝗮̉𝗻 𝗽𝗵𝗮̂̉𝗺 : DUCKOO TROPICAL ISLAND
+                                                        <br> 𝗞𝗶́𝗰𝗵 𝗧𝗵𝘂̛𝗼̛́𝗰 : 7-8cm
+                                                        <br> 𝗖𝗵𝗮̂́𝘁 𝗟𝗶𝗲̣̂𝘂: Vinyl
+                                                        <br> 𝗛𝗶̀𝗻𝗵𝗧𝗵𝘂̛́𝗰 : Blind Box - 1 hộp sẽ mở ra 1 nhân vật ngẫu nhiên.
+                                                        <br> 𝗦𝗼̂́ 𝗹𝘂̛𝗼̛̣𝗻𝗴 : 12 mẫu cơ bản, 1 mẫu secret
+                                                        <br> 𝗧𝗵𝗶𝗲̂́𝘁 𝗸𝗲̂́ : DUCKOO
+                                                        <br> 𝗦𝗮̉𝗻 𝘅𝘂𝗮̂́𝘁 : POPMART</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="social-share">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- all js here -->
+    <script src="assets/js/onloadingFirst.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/ajax-mail.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/js/test_popup.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</body>
+
+</html>

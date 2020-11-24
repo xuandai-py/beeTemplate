@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon1.png">
+
+    <!-- all css here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/chosen.min.css">
+    <link rel="stylesheet" href="assets/css/icofont.css">
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/css/bundle.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v8.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="104109461483570" theme_color="#0A7CFF" logged_in_greeting="Xin chào!!! Bạn cần chúng tôi giúp gì không ?" logged_out_greeting="Xin chào!!! Bạn cần chúng tôi giúp gì không ?">
+    </div>
+    <!--breadcrumb area start-->
+    <div class="breadcrumb_container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home ></a>
+                            </li>
+                            <li>contact</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumb area end-->
+
+
+    <!--contact area css satrt-->
+    <div class="contact_area ptb-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <div class="contact_map_wrapper">
+                        <div class="contact_map mb-40">
+                            <!-- Contact Map Start -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.8849143624525!2d106.66675121432698!3d10.768791562280422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ee760341555%3A0x82c61015183e64ce!2zNDM2YiDEkMaw4budbmcgMyBUaMOhbmcgMiwgUGjGsOG7nW5nIDEyLCBRdeG6rW4gMTAsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e1!3m2!1svi!2s!4v1603176193343!5m2!1svi!2s"
+                                width="780" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <!-- Contact Map End -->
+                        </div>
+                        <div class="contact-message">
+                            <div class="contact_title">
+                                <h4>Contact Information</h4>
+                            </div>
+                            <form id="contact-form" method="post" action="http://d29u17ylf1ylz9.cloudfront.net/organicfood-v1/assets/mail.php">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <label for="contact_n">Name<span>*</span></label>
+                                        <input name="name" id="contact_n" type="text">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="contact_n2">Email<span>*</span></label>
+                                        <input name="email" id="contact_n2" type="email">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="contact_n3">Telephone</label>
+                                        <input name="phone" id="contact_n3" type="text">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="contact_n4">Subject</label>
+                                        <input name="subject" id="contact_n4" type="text">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="contact-textarea">
+                                            <label>Comment<span>*</span></label>
+                                            <textarea name="message" class="form-control2" required=""></textarea>
+                                        </div>
+                                        <button type="submit"> Send Message </button>
+                                    </div>
+                                </div>
+                                <p class="form-messege"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="contact_info_wrapper">
+                        <div class="contact_title">
+                            <h4>Location & Details</h4>
+                        </div>
+                        <div class="contact_info mb-15">
+                            <div class="contact_info_icone">
+                                <a href="#"><i class="icofont icofont-location-pin"></i></a>
+                            </div>
+                            <div class="contact_info_text">
+                                <p><span>Address:</span> 436B/42/14, Ba Tháng Hai, phường 12, quận 10 <br> Thành Phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="contact_info mb-15">
+                            <div class="contact_info_icone">
+                                <a href="#"><i class="icofont icofont-email"></i></a>
+                            </div>
+                            <div class="contact_info_text">
+                                <p><span>Email: </span> Contact@beebrick@gmail.com </p>
+                            </div>
+                        </div>
+                        <div class="contact_info mb-15">
+                            <div class="contact_info_icone">
+                                <a href="#"><i class="icofont icofont-phone"></i></a>
+                            </div>
+                            <div class="contact_info_text">
+                                <p><span>Phone:</span>+(84) 123456789</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact area css end-->
+    <!-- all js here -->
+    <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/ajax-mail.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--Map js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlZPf84AAVt8_FFN7rwQY5nPgB02SlTKs"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

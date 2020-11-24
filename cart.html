@@ -1,0 +1,175 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cart - eCommerce Bootstrap4 Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- all css here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/chosen.min.css">
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/css/bundle.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v8.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="104109461483570" theme_color="#0A7CFF" logged_in_greeting="Xin chào!!! Bạn cần chúng tôi giúp gì không ?" logged_out_greeting="Xin chào!!! Bạn cần chúng tôi giúp gì không ?">
+    </div>
+    <!--breadcrumb area start-->
+    <div class="breadcrumb_container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home ></a></li>
+                            <li>Cart</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumb area end-->
+    <div class="cart_main_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form action="#">
+                        <div class="table-content table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="img-thumbnail"></th>
+                                        <th class="product-name"></th>
+                                        <th class="product-price"></th>
+                                        <th class="product-quantity"></th>
+                                        <th class="product-subtotal">Total</th>
+                                        <th class="product-remove"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="product-thumbnail"><img src="assets/img/product/1_.jpg" alt=""></td>
+                                        <td class="product-name"><a href="#">Chameleonc Wazzupbaby</a></td>
+                                        <td class="product-price"><span class="amount">290.000₫</span></td>
+                                        <td class="product-quantity">
+                                            <div class="quickview_plus_minus quick_cart">
+                                                <div class="quickview_plus_minus_inner">
+                                                    <div class="cart-plus-minus cart_page">
+                                                        <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="product-subtotal">290.000₫</td>
+                                        <td class="product-remove"><a href="#">Remove</a></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="product-thumbnail"><img src="assets/img/product/2_.jpg" alt=""></td>
+                                        <td class="product-name"><a href="#">Chameleonc Wazzupbaby</a></td>
+                                        <td class="product-price"><span class="amount">290.000₫</span></td>
+                                        <td class="product-quantity">
+                                            <div class="quickview_plus_minus quick_cart">
+                                                <div class="quickview_plus_minus_inner">
+                                                    <div class="cart-plus-minus cart_page">
+                                                        <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="product-subtotal">290.000₫</td>
+                                        <td class="product-remove"><a href="#">Remove</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row table-responsive_bottom">
+                            <div class="col-lg-7 col-sm-7 col-md-7">
+                                <div class="buttons-carts">
+                                    <a href="#">Continue Shopping</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-md-5">
+                                <div class="cart_totals  text-right">
+                                    <h2>Cart Totals</h2>
+                                    <div class="cart-subtotal">
+                                        <span>Subtotal</span>
+                                        <span>580.000đ</span>
+                                    </div>
+                                    <div class="cart-subtotal">
+                                        <span><strong>Shipping</strong> </span>
+                                        <span><strong>30.000₫ </strong> </span>
+                                    </div>
+                                    <div class="cart-subtotal">
+                                        <span><strong>Taxes</strong> </span>
+                                        <span><strong>0đ </strong> </span>
+                                    </div>
+                                    <div class="order-total">
+                                        <span><strong>Total</strong> </span>
+                                        <span><strong>630.000đ</strong> </span>
+                                    </div>
+
+                                    <div class="wc-proceed-to-checkout">
+                                        <a href="checkout.html">Proceed to Checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- all js here -->
+    <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/ajax-mail.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
